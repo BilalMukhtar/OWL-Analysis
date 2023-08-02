@@ -1,5 +1,4 @@
 # OWL Analysis/Playoff Profit
-https://github.com/BilalMukhtar/OWL-Analysis/blob/main/OWL_part1.ipynb
 
 ## Overview
 Using stats from The Overwatch League Stats Lab, I attempted to create a generalized statistic that can be used to show how well a player performed in a given map on a specific hero.
