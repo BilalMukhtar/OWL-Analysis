@@ -23,7 +23,7 @@ Using stats from The Overwatch League Stats Lab, I attempted to create a general
 ## Part 1: Cleaning and initial statistic
 Below are images for the correlation matrix and feature importance graphs that could not render in nbviewer
 <br></br>
-[![alttext](https://github.com/BilalMukhtar/FIFA-Rating-Predictor/blob/main/graphics/corr_matrix.svg)]
+[![f](https://github.com/BilalMukhtar/OWL-Analysis/blob/main/graphics/corr_matrix.svg)]
 
 ## Data Source
 * [The Overwatch League Stats Lab](https://overwatchleague.com/en-us/statslab)
