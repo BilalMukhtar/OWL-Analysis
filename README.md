@@ -12,12 +12,18 @@ Using stats from The Overwatch League Stats Lab, I attempted to create a general
 ## Files
 ### Notebooks
 * [`OWL_part1.ipynb`](https://github.com/BilalMukhtar/OWL-Analysis/blob/main/OWL_part1.ipynb) ([nbviewer version](https://nbviewer.org/github/BilalMukhtar/OWL-Analysis/blob/main/OWL_part1.ipynb)): Cleaning of data and utilizing all stats to predict team success
-* [`OWL_part1.ipynb`](https://github.com/BilalMukhtar/OWL-Analysis/blob/main/OWL_part2.ipynb) ([nbviewer version](https://nbviewer.org/github/BilalMukhtar/OWL-Analysis/blob/main/OWL_part2.ipynb)): Creating statistic and fine tuning with testing for best results
-* [`OWL_part1.ipynb`](https://github.com/BilalMukhtar/OWL-Analysis/blob/main/OWL_part3.ipynb) ([nbviewer version](https://nbviewer.org/github/BilalMukhtar/OWL-Analysis/blob/main/OWL_part3.ipynb)): Utilizing statistic for vizualization
+* [`OWL_part2.ipynb`](https://github.com/BilalMukhtar/OWL-Analysis/blob/main/OWL_part2.ipynb) ([nbviewer version](https://nbviewer.org/github/BilalMukhtar/OWL-Analysis/blob/main/OWL_part2.ipynb)): Creating statistic and fine tuning with testing for best results
+* [`OWL_part3.ipynb`](https://github.com/BilalMukhtar/OWL-Analysis/blob/main/OWL_part3.ipynb) ([nbviewer version](https://nbviewer.org/github/BilalMukhtar/OWL-Analysis/blob/main/OWL_part3.ipynb)): Utilizing statistic for vizualization
 
 ### Folders
 * old csv files: raw data sourced from The Overwatch League Stats Lab
 * new csv files: csvs used for storing data between notebooks
+
+
+## Part 1: Cleaning and initial statistic
+Below are images for the correlation matrix and feature importance graphs that could not render in nbviewer
+<br></br>
+[![alttext](https://github.com/BilalMukhtar/FIFA-Rating-Predictor/blob/main/graphics/corr_matrix.svg)]
 
 ## Data Source
 * [The Overwatch League Stats Lab](https://overwatchleague.com/en-us/statslab)
