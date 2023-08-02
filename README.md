@@ -1,27 +1,25 @@
-# FIFA Rating Predictor/DB
+# OWL Analysis/Playoff Profit
 
 ## Overview
-In preparation for the the release of EAFC 24, I wanted to attempt to predict the ratings of some of the top players in the world. By using historical FIFA data alongside real-life stats, I attempted to accurately predict ratings of players.
+Using stats from The Overwatch League Stats Lab, I attempted to create a generalized statistic that can be used to show how well a player performed in a given map on a specific hero.
 
 ## Process
-* Data was scraped from futbin.com and understat.com using BeautifulSoup
-* The data was then combined by matching clubs and player names manually and via fuzzy-matching
-* Cleaned data was then populated into a custom made database to allow for complex queries to match-up different FIFA years with real life seasons
-* DB was queried using RPostgres and then analysis was done using R
+* The data was cleaned and combined into a simplified format that was easier to do predictions with
+* Using random forest, I attempted to figure out how well a model could predict the likelihood of a win with all statistics given
+* The statistic was created using a variety of techniques to fine tune the ability to predict a map win
+* Finally, the statistic was ready to be used for a variety of different graphics to see the true impact of players on their team's success
 
 ## Files
 ### Notebooks
-* futbin_scrape/understat_scrape: used to scrape data
-* data_cleaning: used to clean data and match data from both sources
-* futbin_understat_combo: used to combine cleaned data into one csv file
-* to_db: used to insert all cleaned data into the database
+* OWL_part1: Cleaning of data and utilizing all stats to predict team success
+* OWL_part2: Creating statistic and fine tuning with testing for best results
+* OWL_part3: Utilizing statistic for vizualization
 
 ### Folders
-* csv files: raw scraped data and the cleaned/combined data
-* data repair csvs: csvs used to match player names and clubs
-* sql files: file to create database with correct constraints
+* old csv files: raw data sourced from The Overwatch League Stats Lab
+* new csv files: csvs used for storing data between notebooks
 
-## Database
+## Part 1: Cleaning and initial analysis
 Based on the following diagram, the goal is to expand the project to also contain data from teams which may improve the current predictions along with allowing for future projects/analysis (Click on the image for an interactive view)
 <br></br>
 [![alttext](https://github.com/BilalMukhtar/FIFA-Rating-Predictor/blob/main/imgs/soccer_db_png.png)](https://drawsql.app/teams/bilals-team-1/diagrams/soccerdb/embed)
